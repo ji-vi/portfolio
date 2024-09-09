@@ -1,0 +1,674 @@
+/* INDEX.html styles */
+
+body{
+    background-color: #E1F7F5;
+}
+
+hr{
+    width: 10%;
+    border-style: none none;
+    border-top-style: dotted;
+    border-color: #1B1A55;
+    background-color: #E1F7F5;
+    border-width: 3vh;
+    margin: 5vh auto 10vh;
+}
+
+#logo-img{
+    height: 10vh;
+    width: 6vw;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10vh;
+}
+
+#profile-img{
+    height: 30vh;
+    width: 12vw;
+    border-radius: 100%;
+    margin-bottom: 10vh;
+}
+
+
+.about-text{
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 20vh;
+}
+
+.card1{
+    height: 50vh;
+    width: 20vw;
+    margin: 2%;
+    border: 2px solid #26a9cd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card1:hover {
+    background-color: #26a9cd;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card2{
+    height: 50vh;
+    width: 20vw;
+    margin: 2%;
+    border: 2px solid #26a9cd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card2:hover {
+  background-color: #26a9cd;
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card3{
+    height: 50vh;
+    width: 20vw;
+    margin: 2%;
+    border: 2px solid #26a9cd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card3:hover {
+    background-color: #26a9cd;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card4{
+    height: 50vh;
+    width: 20vw;
+    margin: 2%;
+    border: 2px solid #26a9cd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card4:hover {
+    background-color: #26a9cd;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hobbie-img{
+    height: 12vh;
+    width: 7.5vw;
+    margin-left: 5vw;
+    margin-bottom: 3vh;
+}
+
+.hobbie-txt{
+    font-size: 4vh;
+    padding: 0 2vw;
+    text-align: center;
+    font-family: "Oswald", cursive;
+}
+
+.footer{
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-txt{
+    font-size: 5vh;
+    font-family: "Oswald", sans-serif;
+}
+
+/* EDUCATION.html and PROJECTS.html styles */
+
+.title{
+    text-align: center;
+    margin: 5vh;
+    font-size: 15vh;
+    font-family: "Pacifico", cursive;
+}
+
+.education-cards{
+    margin: 5vh;
+    height: 40vh;
+    border: 2px solid #26a9cd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.education-cards:hover{
+    background-color: #26a9cd;
+    color: whitesmoke;
+}
+
+/* CONTACT-ME.html */
+.contacts-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    margin: 4vh;
+    justify-content: center;
+}
+
+.contact-img img{
+    height: 6vh;
+    width: 3vw;
+    margin-right: 5vh;
+}
+
+.contact-text h3{
+    font-size: 4vh;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 300px) and (max-width:375px) {
+    #logo-img{
+        height: 10vh;
+        width: 15vw;
+    }
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+    
+    #profile-img{
+        height: 25vh;
+        width: 30vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 4vh;
+    }
+
+    .card1, .card2, .card3, .card4{
+        height: 50vh;
+        width: 100vw;
+        flex: 0 0 auto;
+        margin-bottom: 5vh;
+    }
+
+    .hobbie-img{
+        height: 10vh;
+        width: 15vw;
+        margin-left: 17vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .education-cards{
+        height: 60vh;
+    }
+    
+    .contact-img img{
+        height: 8vh;
+        width: 6vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
+
+
+@media screen and (min-width: 375px) and ( max-width:425px) {
+    #logo-img{
+        height: 10vh;
+        width: 15vw;
+    }
+
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    #profile-img{
+        height: 25vh;
+        width: 25vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 4vh;
+    }
+
+    .card1, .card2, .card3, .card4{
+        height: 50vh;
+        width: 100vw;
+        flex: 0 0 auto;
+        margin-bottom: 5vh;
+    }
+
+    .hobbie-img{
+        height: 10vh;
+        width: 15vw;
+        margin-left: 25vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .education-cards{
+        height: 55vh;
+    }
+
+    .contact-img img{
+        height: 8vh;
+        width: 6vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width:561px) {
+    #logo-img{
+        height: 10vh;
+        width: 12vw;
+    }
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    #profile-img{
+        height: 25vh;
+        width: 25vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 4vh;
+    }
+
+    .card1, .card2, .card3, .card4{
+        height: 50vh;
+        width: 50vw;
+        flex: 0 0 auto;
+        margin-bottom: 5vh;
+    }
+
+    .hobbie-img{
+        height: 10vh;
+        width: 15vw;
+        margin-left: 15vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .contact-img img{
+        height: 8vh;
+        width: 6vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
+
+@media screen and (min-width: 561px) and (max-width:630px) {
+    #logo-img{
+        height: 10vh;
+        width: 14vw;
+    }
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    #profile-img{
+        height: 25vh;
+        width: 20vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 5vh;
+    }
+
+    .card1, .card2, .card3, .card4{
+        height: 50vh;
+        width: 50vw;
+        flex: 0 0 auto;
+        margin-bottom: 5vh;
+    }
+
+    .hobbie-img{
+        height: 12vh;
+        width: 13vw;
+        margin-left: 15vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .education-cards{
+        height: 60vh;
+    }
+
+    .contact-img img{
+        height: 8vh;
+        width: 6vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
+
+@media screen and (min-width: 630px) and (max-width:768px) {
+    #logo-img{
+        height: 10vh;
+        width: 13vw;
+    }
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    #profile-img{
+        height: 30vh;
+        width: 20vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 5vh;
+    }
+
+    .card1, .card2, .card3, .card4{
+        height: 50vh;
+        width: 30vw;
+        flex: 0 0 auto;
+        margin-bottom: 5vh;
+    }
+
+    .hobbie-img{
+        height: 12vh;
+        width: 10vw;
+        margin-left: 8vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .education-cards{
+        height: 60vh;
+    }
+
+    .contact-img img{
+        height: 8vh;
+        width: 5vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:900px) {
+    #logo-img{
+        height: 10vh;
+        width: 13vw;
+    }
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    #profile-img{
+        height: 30vh;
+        width: 20vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 4vh;
+    }
+
+    .card1, .card2, .card3, .card4{
+        height: 50vh;
+        width: 25vw;
+        flex: 0 0 auto;
+        margin-bottom: 5vh;
+    }
+
+    .hobbie-img{
+        height: 10vh;
+        width: 10vw;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .education-cards{
+        height: 60vh;
+    }
+
+    .contact-img img{
+        height: 8vh;
+        width: 5vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width:1024px) {
+    #logo-img{
+        height: 10vh;
+        width: 12vw;
+    }
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    #profile-img{
+        height: 35vh;
+        width: 20vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 5vh;
+    }
+
+    .hobbie-img{
+        height: 10vh;
+        width: 8vw;
+        margin-left: 4vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .contact-img img{
+        height: 8vh;
+        width: 5vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+    #logo-img{
+        height: 10vh;
+        width: 12vw;
+    }
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    #profile-img{
+        height: 40vh;
+        width: 22vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 5vh;
+    }
+
+    .hobbie-img{
+        height: 10vh;
+        width: 8vw;
+        margin-left: 4vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .contact-img img{
+        height: 8vh;
+        width: 5vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width:2560px) {
+    #logo-img{
+        height: 9vh;
+        width: 12vw;
+    }
+
+    .nav-btn{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+
+    #profile-img{
+        height: 35vh;
+        width: 20vw;  
+    }
+
+    .about-text, .footer-txt{
+        font-size: 5vh;
+    }
+
+    hr{
+        width: 10%;
+        border-style: none none;
+        border-top-style: dotted;
+        border-color: #1600d9eb;
+        background-color: #E1F7F5;
+        border-width:3vh ;
+        margin: 5vh auto 10vh;
+    }
+
+    .hobbie-img{
+        height: 10vh;
+        width: 8vw;
+        margin-left: 4vw;
+        margin-bottom: 5vh;
+    }
+    
+    .hobbie-txt{
+        font-size: 4vh;
+        padding: 0 2vw;
+        text-align: center;
+        font-family: "Oswald", cursive;
+    }
+
+    .card-title
+    {
+        font-size: 6vh;
+        margin-bottom: 2vh;
+    }
+
+    .card-text{
+        font-size: 5vh;
+    }
+
+    .contact-img img{
+        height: 8vh;
+        width: 5vw;
+        margin-right: 5vh;
+    }
+
+    .contact-text h3{
+        font-size: 5vh;
+    }
+}
